@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web Scripting 2 Portfolio Starter App" />
+    <title>Web Scripting 2 | Portfolio Starter</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="#" class="logo">WS2 Portfolio</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#goals">Goals</a>
+          <a href="#skills">Skills</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">WEB SCRIPTING 2</p>
+          <h1>Welcome to My JavaScript Portfolio</h1>
+          <p id="message" class="hero-text"></p>
+          <a href="#about" class="button">Explore My Portfolio</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">01 — ABOUT ME</p>
+          <h2>Building My Web Development Skills</h2>
+        </div>
+        <div class="about-card">
+          <p>
+            I'm currently learning modern web development and expanding my
+            knowledge of JavaScript. This project is an introduction to the
+            tools and workflow used throughout Web Scripting 2.
+          </p>
+          <p>
+            My goal is to become more comfortable creating interactive,
+            organized, and responsive websites while learning how developers
+            use modern tools such as Node.js, npm, Vite, and GitHub.
+          </p>
+        </div>
+      </section>
+
+      <section id="goals" class="section section-alt">
+        <div class="section-heading">
+          <p class="eyebrow">02 — COURSE GOALS</p>
+          <h2>What I Want to Learn</h2>
+        </div>
+        <div id="goals-list" class="card-grid"></div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">03 — SKILLS</p>
+          <h2>Skills I'm Developing</h2>
+        </div>
+        <div class="card-grid">
+          <article class="info-card">
+            <div class="card-number">01</div>
+            <h3>HTML & CSS</h3>
+            <p>Creating structured web pages and designing responsive, accessible layouts.</p>
+          </article>
+          <article class="info-card">
+            <div class="card-number">02</div>
+            <h3>JavaScript</h3>
+            <p>Learning variables, functions, arrays, modules, DOM manipulation, and interactive features.</p>
+          </article>
+          <article class="info-card">
+            <div class="card-number">03</div>
+            <h3>Developer Tools</h3>
+            <p>Practicing Node.js, npm, Vite, Git, and GitHub as part of a modern development workflow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="section-heading">
+          <p class="eyebrow">04 — PROJECT TRACKER</p>
+          <h2>My Web Scripting Journey</h2>
+        </div>
+        <div class="progress-card">
+          <div class="progress-info">
+            <span>Course Progress</span>
+            <span id="progress-text">Getting started</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Web Scripting 2 Portfolio</p>
+      <p>Built with HTML, CSS, JavaScript, Node.js & Vite</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
